@@ -91,6 +91,8 @@ header a:hover {
 #hero {
     background-image:url('../img/feliz-joven-chef-con-equipo-de-cocina.jpg') ;
     background-size: cover;
+    background-position: center center; 
+    min-height: 500px;
     padding: 50px 0;
     text-align: center;
     display: flex;
@@ -116,6 +118,8 @@ header a:hover {
     font-size: 2.5em;
     margin-bottom: 10px;
     color: #b8860b;
+    
+
 }
 
 .hero-content p {
@@ -220,11 +224,11 @@ section p{
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Incluye padding y border en el ancho */
+    box-sizing: border-box; 
 }
 
 .form-group textarea {
-    resize: vertical; /* Permite redimensionar verticalmente */
+    resize: vertical; 
 }
 
 #contact button {
@@ -256,6 +260,50 @@ footer {
         width: 90%;
     }
 
+    nav{
+        background-color: #1b1b1b;
+        weight: 100%;
+        border-radius: 25px;
+        
+    }
+
+    li{
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.644);
+        border-radius: 25px;
+        margin: 15px;
+        background-color: #b8860b;
+    }
+
+    a{
+        color: rgb(255, 255, 255) !important;
+    }
+
+    a:hover{
+        color: black !important;
+    }
+
+    #hero {
+        
+        min-height: 350px; 
+        padding: 30px 0;
+        
+        background-position: 60% center; 
+    }
+
+    .hero-content h2{
+        color: #0f0f0f;
+        text-shadow: 
+        -2px -2px 0 #b8860b, 
+        2px -2px 0 #b8860b, 
+        -2px 2px 0 #b8860b, 
+        2px 2px 0 #b8860b;
+    }
+
+    .hero-content p{
+        display: none;
+    }
+
+
     header h1, header p, header nav {
         float: none;
         text-align: center;
@@ -281,7 +329,7 @@ footer {
     }
 
     .hero-image {
-        margin-top: 30px;
+        display:none
     }
 
     .service-grid {
